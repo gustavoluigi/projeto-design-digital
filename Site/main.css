@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    background-image: url("../site/imagens/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+}
+
+#cases-titulo {
+    font-size: 3em;
+    text-align: center;
+}
+
+header {
+    background: #353535;
+    color: #f9f9f9;
+    height: 80px;
+    padding: 0 5%;
+}
+
+header h1 {
+    float: left;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav a {
+    color: #f9f9f9;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    color: #6BB9F0;
+}
+
+.menu-direita {
+    float: right;
+    margin-top: 20px;
+}
+
+.titulo {
+    margin: auto;
+    text-align: center;
+    margin: 5% 0;
+}
+
+
+#indice {
+    width: 100%;
+    margin: auto;
+}
+
+#box-gustavo {
+    float: left;
+    width: 50%;
+    margin: auto;
+    height: 500px;
+}
+
+#box-gustavo img {
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 100%;
+    margin-top: 5%;
+    transition: filter ease 1s;
+}
+
+#box-gustavo img:hover {
+    filter: brightness(10%);
+}
+
+#box-gustavo h3 {
+    text-align: center;
+}
+
+#box-raul {
+    width: 50%;
+    margin: auto;
+    float: right;
+    height: 500px;
+}
+
+#box-raul img {
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 100%;
+    margin-top: 5%;
+    transition: filter ease 1s;
+}
+
+#box-raul img:hover {
+    filter: brightness(10%);
+}
+
+#box-raul h3 {
+    text-align: center;
+}
+
+/* gustavo.html */
+
+.gustavo-box {
+    float: left;
+    margin: 5% 0 0 0;
+    height: 100%;
+}
+
+.texto-gustavo {
+    width: 40%;
+    float: left;
+    margin: 7% 5% 0 5%;
+    height: 100%;
+}
+
+.gustavo-box img {
+    float: right;
+    width: 30%;
+    margin-right: 10%;
+}
+
+/* raul.html */
+
+.raul-box {
+    float: left;
+    margin: 5% 0 0 0;
+    height: 100%;
+}
+
+.texto-raul {
+    width: 40%;
+    float: left;
+    margin: 1% 5% 0 5%;
+}
+
+.raul-box img {
+    float: right;
+    width: 30%;
+    margin-right: 10%;
+}
+
+/* tabela.html */
+
+#tabela-titulo {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 2%;
+}
+
+table {
+    margin: 5% auto;
+}
+
+th {
+    font-size: 1.5em;
+    margin: 0 10% 0 0;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+td {
+    font-size: 1em;
+    width: 20%;
+    text-align: center;
+    padding-bottom: 0.5%;
+}
+
+/* sites.html */
+
+#h2sites {
+    text-align: center;
+    margin: 5% auto;
+}
+
+#sites-gustavo {
+    float: left;
+    width: 50%;
+}
+
+#sites-gustavo h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#sites-gustavo a {
+    text-decoration: none;
+    color: rgb(87, 127, 155);
+    text-align: center;
+}
+
+#sites-gustavo a:hover {
+    color: #353535;
+}
+
+#sites-gustavo p {
+    text-align: center;
+}
+
+#sites-raul {
+    float: left;
+    width: 50%;
+}
+
+#sites-raul h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#sites-raul a {
+    margin-bottom: 1em;
+    text-decoration: none;
+    color: rgb(87, 127, 155);
+}
+
+#sites-raul a:hover {
+    color: #353535;
+
+}
+
+#sites-raul p {
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 100% !important;
+}
+
+
+.btn-rep a {
+    background-color: black;
+    color: #f9f9f9;
+}
+
+.btn-rep {
+    margin-top: 40%;
+}
+
+.btn-rep h3 {
+    padding: 50px;
+    background-color: black;
+    text-align: center;
+}
+
+.fa-arrow-right:before{content:"\f061"}
+.fa-arrow-left:before{content:"\f060"}
+.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
